@@ -19,10 +19,6 @@ class Magasin {
                     {
                         items[i].quality = items[i].quality - 1;
                     }
-                    else if(items[i].name.equals("Pouvoir Magiques")) //MODIF
-                    {
-                        items[i].quality = items[i].quality - 2;
-                    }
                 }
             }
             else

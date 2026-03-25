@@ -8,10 +8,11 @@ class MagasinTest {
 
     @Test
     void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        Item[] items = new Item[] { new Item("Comté", 0, 0) };
         Magasin app = new Magasin(items);
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+        assertEquals("Comté", app.items[0].name);
+        assertEquals(2, app.items[0].quality);
     }
 
 }
